@@ -1,0 +1,15 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      # Optionnelle : sans clé, la couche LLM passe en fallback heuristique.
+      - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
