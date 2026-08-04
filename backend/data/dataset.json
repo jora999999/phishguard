@@ -1,0 +1,1042 @@
+[
+  {
+    "id": "legit-053",
+    "label": "legitimate",
+    "subject": "Votre commande #78053 a été expédiée",
+    "sender": "expedition@revenuquebec.ca",
+    "sender_display": "Revenu Québec",
+    "body_text": "Bonjour, votre commande a été expédiée aujourd'hui. Numéro de suivi : CA100053QC. Suivez votre livraison sur <a href=\"https://revenuquebec.ca/suivi/CA100053QC\">revenuquebec.ca/suivi</a>."
+  },
+  {
+    "id": "legit-004",
+    "label": "legitimate",
+    "subject": "IFT-2004 : rappel — remise du TP1",
+    "sender": "enseignant@ulaval.ca",
+    "sender_display": "Équipe enseignante",
+    "body_text": "Bonjour à toutes et à tous, petit rappel que le TP1 est à remettre dimanche 23 h 59 sur le portail des cours. Les consignes complètes sont dans l'énoncé déjà publié. Bon week-end !"
+  },
+  {
+    "id": "phish-028",
+    "label": "phishing",
+    "subject": "Félicitations, vous avez été sélectionné !",
+    "sender": "promo28@offres-gagnant.xyz",
+    "sender_display": "Concours Netflix",
+    "body_text": "Félicitations, vous avez gagné une carte-cadeau Netflix de 500 $. Confirmez vos informations bancaires pour recevoir votre prix : <a href=\"https://tinyurl.com/gain28\">Réclamer maintenant</a>"
+  },
+  {
+    "id": "phish-058",
+    "label": "phishing",
+    "subject": "Félicitations, vous avez été sélectionné !",
+    "sender": "promo58@offres-gagnant.xyz",
+    "sender_display": "Concours Amazon",
+    "body_text": "Félicitations, vous avez gagné une carte-cadeau Amazon de 500 $. Confirmez vos informations bancaires pour recevoir votre prix : <a href=\"https://tinyurl.com/gain58\">Réclamer maintenant</a>"
+  },
+  {
+    "id": "legit-002",
+    "label": "legitimate",
+    "subject": "Compte rendu — rencontre d'équipe du sprint 3",
+    "sender": "genevieve.tremblay@ulaval.ca",
+    "sender_display": "Geneviève Tremblay",
+    "body_text": "Salut Youssef, voici le compte rendu de notre rencontre. On a convenu de terminer la revue de code avant vendredi et de planifier la démo la semaine prochaine. Dis-moi si j'ai oublié quelque chose.",
+    "attachments": [
+      "compte-rendu-sprint-3.pdf"
+    ]
+  },
+  {
+    "id": "legit-030",
+    "label": "legitimate",
+    "subject": "Reçu de votre commande #78030",
+    "sender": "commandes@postescanada.ca",
+    "sender_display": "Postes Canada",
+    "body_text": "Bonjour Étienne, merci pour votre commande. Votre reçu est disponible dans votre espace client. Montant : 40,58 $. Vous pouvez suivre la livraison ici : <a href=\"https://postescanada.ca/commandes/78030\">postescanada.ca/commandes</a>"
+  },
+  {
+    "id": "phish-003",
+    "label": "phishing",
+    "subject": "Facture impayée #1003 — action immédiate requise",
+    "sender": "comptabilite@rnicrosoft.com",
+    "sender_display": "Microsoft Facturation",
+    "body_text": "Dernier avertissement : votre facture est impayée. Consultez la pièce jointe et réglez sans délai pour éviter la fermeture de votre compte.",
+    "attachments": [
+      "facture_1003.pdf.exe"
+    ]
+  },
+  {
+    "id": "legit-005",
+    "label": "legitimate",
+    "subject": "Votre commande #78005 a été expédiée",
+    "sender": "expedition@revenuquebec.ca",
+    "sender_display": "Revenu Québec",
+    "body_text": "Bonjour, votre commande a été expédiée aujourd'hui. Numéro de suivi : CA100005QC. Suivez votre livraison sur <a href=\"https://revenuquebec.ca/suivi/CA100005QC\">revenuquebec.ca/suivi</a>."
+  },
+  {
+    "id": "legit-022",
+    "label": "legitimate",
+    "subject": "IFT-2022 : rappel — remise du TP3",
+    "sender": "enseignant@ulaval.ca",
+    "sender_display": "Équipe enseignante",
+    "body_text": "Bonjour à toutes et à tous, petit rappel que le TP3 est à remettre dimanche 23 h 59 sur le portail des cours. Les consignes complètes sont dans l'énoncé déjà publié. Bon week-end !"
+  },
+  {
+    "id": "phish-026",
+    "label": "phishing",
+    "subject": "Votre colis est en attente de livraison",
+    "sender": "livraison@arnazon-ca.com",
+    "sender_display": "Postes Canada",
+    "body_text": "Cher client, votre colis est en attente de livraison depuis 3 jours. Des frais de 1,99 $ sont requis. Agissez maintenant : <a href=\"http://62.21.170.60/colis26\">Payer les frais</a>"
+  },
+  {
+    "id": "legit-028",
+    "label": "legitimate",
+    "subject": "IFT-2028 : rappel — remise du TP1",
+    "sender": "enseignant@ulaval.ca",
+    "sender_display": "Équipe enseignante",
+    "body_text": "Bonjour à toutes et à tous, petit rappel que le TP1 est à remettre dimanche 23 h 59 sur le portail des cours. Les consignes complètes sont dans l'énoncé déjà publié. Bon week-end !"
+  },
+  {
+    "id": "legit-001",
+    "label": "legitimate",
+    "subject": "Infolettre PayPal — nouveautés du mois",
+    "sender": "infolettre@paypal.com",
+    "sender_display": "PayPal",
+    "body_text": "Bonjour Youssef, voici les nouveautés du mois. Pour gérer vos préférences de communication, rendez-vous sur <a href=\"https://paypal.com/preferences\">paypal.com/preferences</a>. Bonne lecture !"
+  },
+  {
+    "id": "phish-027",
+    "label": "phishing",
+    "subject": "Facture impayée #1027 — action immédiate requise",
+    "sender": "comptabilite@rnicrosoft.com",
+    "sender_display": "Microsoft Facturation",
+    "body_text": "Dernier avertissement : votre facture est impayée. Consultez la pièce jointe et réglez sans délai pour éviter la fermeture de votre compte.",
+    "attachments": [
+      "facture_1027.pdf.exe"
+    ]
+  },
+  {
+    "id": "legit-014",
+    "label": "legitimate",
+    "subject": "Compte rendu — rencontre d'équipe du sprint 6",
+    "sender": "genevieve.tremblay@ulaval.ca",
+    "sender_display": "Geneviève Tremblay",
+    "body_text": "Salut Marc, voici le compte rendu de notre rencontre. On a convenu de terminer la revue de code avant vendredi et de planifier la démo la semaine prochaine. Dis-moi si j'ai oublié quelque chose.",
+    "attachments": [
+      "compte-rendu-sprint-6.pdf"
+    ]
+  },
+  {
+    "id": "phish-025",
+    "label": "phishing",
+    "subject": "Remboursement de 401,89 $ disponible",
+    "sender": "remboursement@paypa1.com",
+    "sender_display": "PayPal",
+    "reply_to": "claims25@mail-retour.tk",
+    "body_text": "Cher utilisateur, un remboursement de 265,32 $ vous attend. Pour le recevoir, confirmez votre numéro de carte et votre date de naissance sans délai : <a href=\"http://bit.ly/rb25x\">Réclamer mon remboursement</a>"
+  },
+  {
+    "id": "phish-020",
+    "label": "phishing",
+    "subject": "Votre colis est en attente de livraison",
+    "sender": "livraison@netfliix.com",
+    "sender_display": "Postes Canada",
+    "body_text": "Cher client, votre colis est en attente de livraison depuis 3 jours. Des frais de 1,99 $ sont requis. Agissez maintenant : <a href=\"http://56.196.118.139/colis20\">Payer les frais</a>"
+  },
+  {
+    "id": "legit-050",
+    "label": "legitimate",
+    "subject": "Compte rendu — rencontre d'équipe du sprint 6",
+    "sender": "genevieve.tremblay@ulaval.ca",
+    "sender_display": "Geneviève Tremblay",
+    "body_text": "Salut Leïla, voici le compte rendu de notre rencontre. On a convenu de terminer la revue de code avant vendredi et de planifier la démo la semaine prochaine. Dis-moi si j'ai oublié quelque chose.",
+    "attachments": [
+      "compte-rendu-sprint-6.pdf"
+    ]
+  },
+  {
+    "id": "legit-026",
+    "label": "legitimate",
+    "subject": "Compte rendu — rencontre d'équipe du sprint 9",
+    "sender": "genevieve.tremblay@ulaval.ca",
+    "sender_display": "Geneviève Tremblay",
+    "body_text": "Salut Sofia, voici le compte rendu de notre rencontre. On a convenu de terminer la revue de code avant vendredi et de planifier la démo la semaine prochaine. Dis-moi si j'ai oublié quelque chose.",
+    "attachments": [
+      "compte-rendu-sprint-9.pdf"
+    ]
+  },
+  {
+    "id": "phish-057",
+    "label": "phishing",
+    "subject": "Facture impayée #1057 — action immédiate requise",
+    "sender": "comptabilite@paypa1.com",
+    "sender_display": "PayPal Facturation",
+    "body_text": "Dernier avertissement : votre facture est impayée. Consultez la pièce jointe et réglez sans délai pour éviter la fermeture de votre compte.",
+    "attachments": [
+      "facture_1057.pdf.exe"
+    ]
+  },
+  {
+    "id": "phish-012",
+    "label": "phishing",
+    "subject": "URGENT : votre compte Netflix sera suspendu dans 24 heures",
+    "sender": "securite@netfliix.com",
+    "sender_display": "Netflix Sécurité",
+    "body_text": "Cher client, nous avons détecté une activité inhabituelle sur votre compte. Vous devez vérifier votre identité dans les 24 heures, sinon votre compte sera suspendu. Confirmez vos identifiants ici : <a href=\"https://netfliix.com/verify?id=12\">https://netflix.com/securite</a>"
+  },
+  {
+    "id": "phish-013",
+    "label": "phishing",
+    "subject": "Remboursement de 83,30 $ disponible",
+    "sender": "remboursement@revenuquebec-remboursement.xyz",
+    "sender_display": "Revenu Québec",
+    "reply_to": "claims13@mail-retour.tk",
+    "body_text": "Cher utilisateur, un remboursement de 437,32 $ vous attend. Pour le recevoir, confirmez votre numéro de carte et votre date de naissance sans délai : <a href=\"http://bit.ly/rb13x\">Réclamer mon remboursement</a>"
+  },
+  {
+    "id": "legit-015",
+    "label": "legitimate",
+    "subject": "Votre relevé mensuel est disponible",
+    "sender": "releves@interac.ca",
+    "sender_display": "Interac",
+    "body_text": "Bonjour Youssef, votre relevé mensuel est maintenant disponible dans votre espace sécurisé. Connectez-vous comme d'habitude via notre site officiel ou l'application mobile pour le consulter. Nous ne vous demanderons jamais votre mot de passe par courriel."
+  },
+  {
+    "id": "legit-039",
+    "label": "legitimate",
+    "subject": "Votre relevé mensuel est disponible",
+    "sender": "releves@interac.ca",
+    "sender_display": "Interac",
+    "body_text": "Bonjour Amina, votre relevé mensuel est maintenant disponible dans votre espace sécurisé. Connectez-vous comme d'habitude via notre site officiel ou l'application mobile pour le consulter. Nous ne vous demanderons jamais votre mot de passe par courriel."
+  },
+  {
+    "id": "phish-045",
+    "label": "phishing",
+    "subject": "Facture impayée #1045 — action immédiate requise",
+    "sender": "comptabilite@revenuquebec-remboursement.xyz",
+    "sender_display": "Revenu Québec Facturation",
+    "body_text": "Dernier avertissement : votre facture est impayée. Consultez la pièce jointe et réglez sans délai pour éviter la fermeture de votre compte.",
+    "attachments": [
+      "facture_1045.pdf.exe"
+    ]
+  },
+  {
+    "id": "legit-036",
+    "label": "legitimate",
+    "subject": "Reçu de votre commande #78036",
+    "sender": "commandes@netflix.com",
+    "sender_display": "Netflix",
+    "body_text": "Bonjour Camille, merci pour votre commande. Votre reçu est disponible dans votre espace client. Montant : 151,41 $. Vous pouvez suivre la livraison ici : <a href=\"https://netflix.com/commandes/78036\">netflix.com/commandes</a>"
+  },
+  {
+    "id": "legit-058",
+    "label": "legitimate",
+    "subject": "IFT-2058 : rappel — remise du TP3",
+    "sender": "enseignant@ulaval.ca",
+    "sender_display": "Équipe enseignante",
+    "body_text": "Bonjour à toutes et à tous, petit rappel que le TP3 est à remettre dimanche 23 h 59 sur le portail des cours. Les consignes complètes sont dans l'énoncé déjà publié. Bon week-end !"
+  },
+  {
+    "id": "legit-049",
+    "label": "legitimate",
+    "subject": "Infolettre PayPal — nouveautés du mois",
+    "sender": "infolettre@paypal.com",
+    "sender_display": "PayPal",
+    "body_text": "Bonjour Étienne, voici les nouveautés du mois. Pour gérer vos préférences de communication, rendez-vous sur <a href=\"https://paypal.com/preferences\">paypal.com/preferences</a>. Bonne lecture !"
+  },
+  {
+    "id": "legit-051",
+    "label": "legitimate",
+    "subject": "Votre relevé mensuel est disponible",
+    "sender": "releves@microsoft.com",
+    "sender_display": "Microsoft",
+    "body_text": "Bonjour Leïla, votre relevé mensuel est maintenant disponible dans votre espace sécurisé. Connectez-vous comme d'habitude via notre site officiel ou l'application mobile pour le consulter. Nous ne vous demanderons jamais votre mot de passe par courriel."
+  },
+  {
+    "id": "phish-018",
+    "label": "phishing",
+    "subject": "URGENT : votre compte Amazon sera suspendu dans 24 heures",
+    "sender": "securite@arnazon-ca.com",
+    "sender_display": "Amazon Sécurité",
+    "body_text": "Cher client, nous avons détecté une activité inhabituelle sur votre compte. Vous devez vérifier votre identité dans les 24 heures, sinon votre compte sera suspendu. Confirmez vos identifiants ici : <a href=\"https://arnazon-ca.com/verify?id=18\">https://amazon.ca/securite</a>"
+  },
+  {
+    "id": "legit-008",
+    "label": "legitimate",
+    "subject": "Compte rendu — rencontre d'équipe du sprint 9",
+    "sender": "genevieve.tremblay@ulaval.ca",
+    "sender_display": "Geneviève Tremblay",
+    "body_text": "Salut Leïla, voici le compte rendu de notre rencontre. On a convenu de terminer la revue de code avant vendredi et de planifier la démo la semaine prochaine. Dis-moi si j'ai oublié quelque chose.",
+    "attachments": [
+      "compte-rendu-sprint-9.pdf"
+    ]
+  },
+  {
+    "id": "phish-009",
+    "label": "phishing",
+    "subject": "Facture impayée #1009 — action immédiate requise",
+    "sender": "comptabilite@paypa1.com",
+    "sender_display": "PayPal Facturation",
+    "body_text": "Dernier avertissement : votre facture est impayée. Consultez la pièce jointe et réglez sans délai pour éviter la fermeture de votre compte.",
+    "attachments": [
+      "facture_1009.pdf.exe"
+    ]
+  },
+  {
+    "id": "legit-055",
+    "label": "legitimate",
+    "subject": "Infolettre Interac — nouveautés du mois",
+    "sender": "infolettre@interac.ca",
+    "sender_display": "Interac",
+    "body_text": "Bonjour Amina, voici les nouveautés du mois. Pour gérer vos préférences de communication, rendez-vous sur <a href=\"https://interac.ca/preferences\">interac.ca/preferences</a>. Bonne lecture !"
+  },
+  {
+    "id": "legit-010",
+    "label": "legitimate",
+    "subject": "IFT-2010 : rappel — remise du TP3",
+    "sender": "enseignant@ulaval.ca",
+    "sender_display": "Équipe enseignante",
+    "body_text": "Bonjour à toutes et à tous, petit rappel que le TP3 est à remettre dimanche 23 h 59 sur le portail des cours. Les consignes complètes sont dans l'énoncé déjà publié. Bon week-end !"
+  },
+  {
+    "id": "phish-002",
+    "label": "phishing",
+    "subject": "Votre colis est en attente de livraison",
+    "sender": "livraison@arnazon-ca.com",
+    "sender_display": "Postes Canada",
+    "body_text": "Cher client, votre colis est en attente de livraison depuis 3 jours. Des frais de 1,99 $ sont requis. Agissez maintenant : <a href=\"http://218.199.229.141/colis2\">Payer les frais</a>"
+  },
+  {
+    "id": "phish-036",
+    "label": "phishing",
+    "subject": "URGENT : votre compte Netflix sera suspendu dans 24 heures",
+    "sender": "securite@netfliix.com",
+    "sender_display": "Netflix Sécurité",
+    "body_text": "Cher client, nous avons détecté une activité inhabituelle sur votre compte. Vous devez vérifier votre identité dans les 24 heures, sinon votre compte sera suspendu. Confirmez vos identifiants ici : <a href=\"https://netfliix.com/verify?id=36\">https://netflix.com/securite</a>"
+  },
+  {
+    "id": "legit-007",
+    "label": "legitimate",
+    "subject": "Infolettre Interac — nouveautés du mois",
+    "sender": "infolettre@interac.ca",
+    "sender_display": "Interac",
+    "body_text": "Bonjour Amina, voici les nouveautés du mois. Pour gérer vos préférences de communication, rendez-vous sur <a href=\"https://interac.ca/preferences\">interac.ca/preferences</a>. Bonne lecture !"
+  },
+  {
+    "id": "phish-053",
+    "label": "phishing",
+    "subject": "Votre mot de passe expire aujourd'hui",
+    "sender": "support-ti@revenuquebec-remboursement.xyz",
+    "sender_display": "Support TI",
+    "reply_to": "helpdesk53@reponse-ti.ml",
+    "body_text": "Action immédiate : votre mot de passe expire aujourd'hui. Vérifiez votre compte pour conserver l'accès à vos courriels : <a href=\"https://revenuquebec-remboursement.xyz/reset53\">https://portail.ulaval.ca</a>"
+  },
+  {
+    "id": "legit-056",
+    "label": "legitimate",
+    "subject": "Compte rendu — rencontre d'équipe du sprint 3",
+    "sender": "genevieve.tremblay@ulaval.ca",
+    "sender_display": "Geneviève Tremblay",
+    "body_text": "Salut Leïla, voici le compte rendu de notre rencontre. On a convenu de terminer la revue de code avant vendredi et de planifier la démo la semaine prochaine. Dis-moi si j'ai oublié quelque chose.",
+    "attachments": [
+      "compte-rendu-sprint-3.pdf"
+    ]
+  },
+  {
+    "id": "legit-025",
+    "label": "legitimate",
+    "subject": "Infolettre PayPal — nouveautés du mois",
+    "sender": "infolettre@paypal.com",
+    "sender_display": "PayPal",
+    "body_text": "Bonjour Étienne, voici les nouveautés du mois. Pour gérer vos préférences de communication, rendez-vous sur <a href=\"https://paypal.com/preferences\">paypal.com/preferences</a>. Bonne lecture !"
+  },
+  {
+    "id": "phish-014",
+    "label": "phishing",
+    "subject": "Votre colis est en attente de livraison",
+    "sender": "livraison@postescanda.ca",
+    "sender_display": "Postes Canada",
+    "body_text": "Cher client, votre colis est en attente de livraison depuis 3 jours. Des frais de 1,99 $ sont requis. Agissez maintenant : <a href=\"http://132.81.40.57/colis14\">Payer les frais</a>"
+  },
+  {
+    "id": "legit-011",
+    "label": "legitimate",
+    "subject": "Votre commande #78011 a été expédiée",
+    "sender": "expedition@microsoft.com",
+    "sender_display": "Microsoft",
+    "body_text": "Bonjour, votre commande a été expédiée aujourd'hui. Numéro de suivi : CA100011QC. Suivez votre livraison sur <a href=\"https://microsoft.com/suivi/CA100011QC\">microsoft.com/suivi</a>."
+  },
+  {
+    "id": "legit-037",
+    "label": "legitimate",
+    "subject": "Infolettre Revenu Québec — nouveautés du mois",
+    "sender": "infolettre@revenuquebec.ca",
+    "sender_display": "Revenu Québec",
+    "body_text": "Bonjour Sofia, voici les nouveautés du mois. Pour gérer vos préférences de communication, rendez-vous sur <a href=\"https://revenuquebec.ca/preferences\">revenuquebec.ca/preferences</a>. Bonne lecture !"
+  },
+  {
+    "id": "phish-051",
+    "label": "phishing",
+    "subject": "Facture impayée #1051 — action immédiate requise",
+    "sender": "comptabilite@rnicrosoft.com",
+    "sender_display": "Microsoft Facturation",
+    "body_text": "Dernier avertissement : votre facture est impayée. Consultez la pièce jointe et réglez sans délai pour éviter la fermeture de votre compte.",
+    "attachments": [
+      "facture_1051.pdf.exe"
+    ]
+  },
+  {
+    "id": "legit-042",
+    "label": "legitimate",
+    "subject": "Reçu de votre commande #78042",
+    "sender": "commandes@amazon.ca",
+    "sender_display": "Amazon",
+    "body_text": "Bonjour Étienne, merci pour votre commande. Votre reçu est disponible dans votre espace client. Montant : 23,50 $. Vous pouvez suivre la livraison ici : <a href=\"https://amazon.ca/commandes/78042\">amazon.ca/commandes</a>"
+  },
+  {
+    "id": "phish-006",
+    "label": "phishing",
+    "subject": "URGENT : votre compte Postes Canada sera suspendu dans 24 heures",
+    "sender": "securite@postescanda.ca",
+    "sender_display": "Postes Canada Sécurité",
+    "body_text": "Cher client, nous avons détecté une activité inhabituelle sur votre compte. Vous devez vérifier votre identité dans les 24 heures, sinon votre compte sera suspendu. Confirmez vos identifiants ici : <a href=\"https://postescanda.ca/verify?id=6\">https://postescanada.ca/securite</a>"
+  },
+  {
+    "id": "phish-022",
+    "label": "phishing",
+    "subject": "Félicitations, vous avez été sélectionné !",
+    "sender": "promo22@offres-gagnant.xyz",
+    "sender_display": "Concours Postes Canada",
+    "body_text": "Félicitations, vous avez gagné une carte-cadeau Postes Canada de 500 $. Confirmez vos informations bancaires pour recevoir votre prix : <a href=\"https://tinyurl.com/gain22\">Réclamer maintenant</a>"
+  },
+  {
+    "id": "legit-035",
+    "label": "legitimate",
+    "subject": "Votre commande #78035 a été expédiée",
+    "sender": "expedition@microsoft.com",
+    "sender_display": "Microsoft",
+    "body_text": "Bonjour, votre commande a été expédiée aujourd'hui. Numéro de suivi : CA100035QC. Suivez votre livraison sur <a href=\"https://microsoft.com/suivi/CA100035QC\">microsoft.com/suivi</a>."
+  },
+  {
+    "id": "phish-030",
+    "label": "phishing",
+    "subject": "URGENT : votre compte Postes Canada sera suspendu dans 24 heures",
+    "sender": "securite@postescanda.ca",
+    "sender_display": "Postes Canada Sécurité",
+    "body_text": "Cher client, nous avons détecté une activité inhabituelle sur votre compte. Vous devez vérifier votre identité dans les 24 heures, sinon votre compte sera suspendu. Confirmez vos identifiants ici : <a href=\"https://postescanda.ca/verify?id=30\">https://postescanada.ca/securite</a>"
+  },
+  {
+    "id": "phish-044",
+    "label": "phishing",
+    "subject": "Votre colis est en attente de livraison",
+    "sender": "livraison@netfliix.com",
+    "sender_display": "Postes Canada",
+    "body_text": "Cher client, votre colis est en attente de livraison depuis 3 jours. Des frais de 1,99 $ sont requis. Agissez maintenant : <a href=\"http://190.234.184.82/colis44\">Payer les frais</a>"
+  },
+  {
+    "id": "legit-013",
+    "label": "legitimate",
+    "subject": "Infolettre Revenu Québec — nouveautés du mois",
+    "sender": "infolettre@revenuquebec.ca",
+    "sender_display": "Revenu Québec",
+    "body_text": "Bonjour Leïla, voici les nouveautés du mois. Pour gérer vos préférences de communication, rendez-vous sur <a href=\"https://revenuquebec.ca/preferences\">revenuquebec.ca/preferences</a>. Bonne lecture !"
+  },
+  {
+    "id": "phish-043",
+    "label": "phishing",
+    "subject": "Remboursement de 285,44 $ disponible",
+    "sender": "remboursement@rnicrosoft.com",
+    "sender_display": "Microsoft",
+    "reply_to": "claims43@mail-retour.tk",
+    "body_text": "Cher utilisateur, un remboursement de 113,32 $ vous attend. Pour le recevoir, confirmez votre numéro de carte et votre date de naissance sans délai : <a href=\"http://bit.ly/rb43x\">Réclamer mon remboursement</a>"
+  },
+  {
+    "id": "legit-046",
+    "label": "legitimate",
+    "subject": "IFT-2046 : rappel — remise du TP3",
+    "sender": "enseignant@ulaval.ca",
+    "sender_display": "Équipe enseignante",
+    "body_text": "Bonjour à toutes et à tous, petit rappel que le TP3 est à remettre dimanche 23 h 59 sur le portail des cours. Les consignes complètes sont dans l'énoncé déjà publié. Bon week-end !"
+  },
+  {
+    "id": "phish-008",
+    "label": "phishing",
+    "subject": "Votre colis est en attente de livraison",
+    "sender": "livraison@desjardlns.com",
+    "sender_display": "Postes Canada",
+    "body_text": "Cher client, votre colis est en attente de livraison depuis 3 jours. Des frais de 1,99 $ sont requis. Agissez maintenant : <a href=\"http://188.60.184.168/colis8\">Payer les frais</a>"
+  },
+  {
+    "id": "legit-032",
+    "label": "legitimate",
+    "subject": "Compte rendu — rencontre d'équipe du sprint 6",
+    "sender": "genevieve.tremblay@ulaval.ca",
+    "sender_display": "Geneviève Tremblay",
+    "body_text": "Salut Sofia, voici le compte rendu de notre rencontre. On a convenu de terminer la revue de code avant vendredi et de planifier la démo la semaine prochaine. Dis-moi si j'ai oublié quelque chose.",
+    "attachments": [
+      "compte-rendu-sprint-6.pdf"
+    ]
+  },
+  {
+    "id": "legit-017",
+    "label": "legitimate",
+    "subject": "Votre commande #78017 a été expédiée",
+    "sender": "expedition@paypal.com",
+    "sender_display": "PayPal",
+    "body_text": "Bonjour, votre commande a été expédiée aujourd'hui. Numéro de suivi : CA100017QC. Suivez votre livraison sur <a href=\"https://paypal.com/suivi/CA100017QC\">paypal.com/suivi</a>."
+  },
+  {
+    "id": "legit-041",
+    "label": "legitimate",
+    "subject": "Votre commande #78041 a été expédiée",
+    "sender": "expedition@paypal.com",
+    "sender_display": "PayPal",
+    "body_text": "Bonjour, votre commande a été expédiée aujourd'hui. Numéro de suivi : CA100041QC. Suivez votre livraison sur <a href=\"https://paypal.com/suivi/CA100041QC\">paypal.com/suivi</a>."
+  },
+  {
+    "id": "phish-021",
+    "label": "phishing",
+    "subject": "Facture impayée #1021 — action immédiate requise",
+    "sender": "comptabilite@revenuquebec-remboursement.xyz",
+    "sender_display": "Revenu Québec Facturation",
+    "body_text": "Dernier avertissement : votre facture est impayée. Consultez la pièce jointe et réglez sans délai pour éviter la fermeture de votre compte.",
+    "attachments": [
+      "facture_1021.pdf.exe"
+    ]
+  },
+  {
+    "id": "legit-052",
+    "label": "legitimate",
+    "subject": "IFT-2052 : rappel — remise du TP1",
+    "sender": "enseignant@ulaval.ca",
+    "sender_display": "Équipe enseignante",
+    "body_text": "Bonjour à toutes et à tous, petit rappel que le TP1 est à remettre dimanche 23 h 59 sur le portail des cours. Les consignes complètes sont dans l'énoncé déjà publié. Bon week-end !"
+  },
+  {
+    "id": "legit-031",
+    "label": "legitimate",
+    "subject": "Infolettre Interac — nouveautés du mois",
+    "sender": "infolettre@interac.ca",
+    "sender_display": "Interac",
+    "body_text": "Bonjour Marc, voici les nouveautés du mois. Pour gérer vos préférences de communication, rendez-vous sur <a href=\"https://interac.ca/preferences\">interac.ca/preferences</a>. Bonne lecture !"
+  },
+  {
+    "id": "legit-059",
+    "label": "legitimate",
+    "subject": "Votre commande #78059 a été expédiée",
+    "sender": "expedition@microsoft.com",
+    "sender_display": "Microsoft",
+    "body_text": "Bonjour, votre commande a été expédiée aujourd'hui. Numéro de suivi : CA100059QC. Suivez votre livraison sur <a href=\"https://microsoft.com/suivi/CA100059QC\">microsoft.com/suivi</a>."
+  },
+  {
+    "id": "phish-052",
+    "label": "phishing",
+    "subject": "Félicitations, vous avez été sélectionné !",
+    "sender": "promo52@offres-gagnant.xyz",
+    "sender_display": "Concours Netflix",
+    "body_text": "Félicitations, vous avez gagné une carte-cadeau Netflix de 500 $. Confirmez vos informations bancaires pour recevoir votre prix : <a href=\"https://tinyurl.com/gain52\">Réclamer maintenant</a>"
+  },
+  {
+    "id": "phish-059",
+    "label": "phishing",
+    "subject": "Votre mot de passe expire aujourd'hui",
+    "sender": "support-ti@rnicrosoft.com",
+    "sender_display": "Support TI",
+    "reply_to": "helpdesk59@reponse-ti.ml",
+    "body_text": "Action immédiate : votre mot de passe expire aujourd'hui. Vérifiez votre compte pour conserver l'accès à vos courriels : <a href=\"https://rnicrosoft.com/reset59\">https://portail.ulaval.ca</a>"
+  },
+  {
+    "id": "phish-042",
+    "label": "phishing",
+    "subject": "URGENT : votre compte Amazon sera suspendu dans 24 heures",
+    "sender": "securite@arnazon-ca.com",
+    "sender_display": "Amazon Sécurité",
+    "body_text": "Cher client, nous avons détecté une activité inhabituelle sur votre compte. Vous devez vérifier votre identité dans les 24 heures, sinon votre compte sera suspendu. Confirmez vos identifiants ici : <a href=\"https://arnazon-ca.com/verify?id=42\">https://amazon.ca/securite</a>"
+  },
+  {
+    "id": "phish-004",
+    "label": "phishing",
+    "subject": "Félicitations, vous avez été sélectionné !",
+    "sender": "promo4@offres-gagnant.xyz",
+    "sender_display": "Concours Netflix",
+    "body_text": "Félicitations, vous avez gagné une carte-cadeau Netflix de 500 $. Confirmez vos informations bancaires pour recevoir votre prix : <a href=\"https://tinyurl.com/gain4\">Réclamer maintenant</a>"
+  },
+  {
+    "id": "phish-037",
+    "label": "phishing",
+    "subject": "Remboursement de 163,69 $ disponible",
+    "sender": "remboursement@revenuquebec-remboursement.xyz",
+    "sender_display": "Revenu Québec",
+    "reply_to": "claims37@mail-retour.tk",
+    "body_text": "Cher utilisateur, un remboursement de 274,32 $ vous attend. Pour le recevoir, confirmez votre numéro de carte et votre date de naissance sans délai : <a href=\"http://bit.ly/rb37x\">Réclamer mon remboursement</a>"
+  },
+  {
+    "id": "phish-033",
+    "label": "phishing",
+    "subject": "Facture impayée #1033 — action immédiate requise",
+    "sender": "comptabilite@paypa1.com",
+    "sender_display": "PayPal Facturation",
+    "body_text": "Dernier avertissement : votre facture est impayée. Consultez la pièce jointe et réglez sans délai pour éviter la fermeture de votre compte.",
+    "attachments": [
+      "facture_1033.pdf.exe"
+    ]
+  },
+  {
+    "id": "phish-005",
+    "label": "phishing",
+    "subject": "Votre mot de passe expire aujourd'hui",
+    "sender": "support-ti@revenuquebec-remboursement.xyz",
+    "sender_display": "Support TI",
+    "reply_to": "helpdesk5@reponse-ti.ml",
+    "body_text": "Action immédiate : votre mot de passe expire aujourd'hui. Vérifiez votre compte pour conserver l'accès à vos courriels : <a href=\"https://revenuquebec-remboursement.xyz/reset5\">https://portail.ulaval.ca</a>"
+  },
+  {
+    "id": "phish-039",
+    "label": "phishing",
+    "subject": "Facture impayée #1039 — action immédiate requise",
+    "sender": "comptabilite@lnterac.ca",
+    "sender_display": "Interac Facturation",
+    "body_text": "Dernier avertissement : votre facture est impayée. Consultez la pièce jointe et réglez sans délai pour éviter la fermeture de votre compte.",
+    "attachments": [
+      "facture_1039.pdf.exe"
+    ]
+  },
+  {
+    "id": "legit-003",
+    "label": "legitimate",
+    "subject": "Votre relevé mensuel est disponible",
+    "sender": "releves@microsoft.com",
+    "sender_display": "Microsoft",
+    "body_text": "Bonjour Leïla, votre relevé mensuel est maintenant disponible dans votre espace sécurisé. Connectez-vous comme d'habitude via notre site officiel ou l'application mobile pour le consulter. Nous ne vous demanderons jamais votre mot de passe par courriel."
+  },
+  {
+    "id": "phish-015",
+    "label": "phishing",
+    "subject": "Facture impayée #1015 — action immédiate requise",
+    "sender": "comptabilite@lnterac.ca",
+    "sender_display": "Interac Facturation",
+    "body_text": "Dernier avertissement : votre facture est impayée. Consultez la pièce jointe et réglez sans délai pour éviter la fermeture de votre compte.",
+    "attachments": [
+      "facture_1015.pdf.exe"
+    ]
+  },
+  {
+    "id": "legit-019",
+    "label": "legitimate",
+    "subject": "Infolettre Microsoft — nouveautés du mois",
+    "sender": "infolettre@microsoft.com",
+    "sender_display": "Microsoft",
+    "body_text": "Bonjour Sofia, voici les nouveautés du mois. Pour gérer vos préférences de communication, rendez-vous sur <a href=\"https://microsoft.com/preferences\">microsoft.com/preferences</a>. Bonne lecture !"
+  },
+  {
+    "id": "phish-023",
+    "label": "phishing",
+    "subject": "Votre mot de passe expire aujourd'hui",
+    "sender": "support-ti@lnterac.ca",
+    "sender_display": "Support TI",
+    "reply_to": "helpdesk23@reponse-ti.ml",
+    "body_text": "Action immédiate : votre mot de passe expire aujourd'hui. Vérifiez votre compte pour conserver l'accès à vos courriels : <a href=\"https://lnterac.ca/reset23\">https://portail.ulaval.ca</a>"
+  },
+  {
+    "id": "phish-050",
+    "label": "phishing",
+    "subject": "Votre colis est en attente de livraison",
+    "sender": "livraison@arnazon-ca.com",
+    "sender_display": "Postes Canada",
+    "body_text": "Cher client, votre colis est en attente de livraison depuis 3 jours. Des frais de 1,99 $ sont requis. Agissez maintenant : <a href=\"http://188.147.68.193/colis50\">Payer les frais</a>"
+  },
+  {
+    "id": "phish-001",
+    "label": "phishing",
+    "subject": "Remboursement de 205,38 $ disponible",
+    "sender": "remboursement@paypa1.com",
+    "sender_display": "PayPal",
+    "reply_to": "claims1@mail-retour.tk",
+    "body_text": "Cher utilisateur, un remboursement de 151,32 $ vous attend. Pour le recevoir, confirmez votre numéro de carte et votre date de naissance sans délai : <a href=\"http://bit.ly/rb1x\">Réclamer mon remboursement</a>"
+  },
+  {
+    "id": "phish-031",
+    "label": "phishing",
+    "subject": "Remboursement de 222,68 $ disponible",
+    "sender": "remboursement@lnterac.ca",
+    "sender_display": "Interac",
+    "reply_to": "claims31@mail-retour.tk",
+    "body_text": "Cher utilisateur, un remboursement de 405,32 $ vous attend. Pour le recevoir, confirmez votre numéro de carte et votre date de naissance sans délai : <a href=\"http://bit.ly/rb31x\">Réclamer mon remboursement</a>"
+  },
+  {
+    "id": "legit-020",
+    "label": "legitimate",
+    "subject": "Compte rendu — rencontre d'équipe du sprint 3",
+    "sender": "genevieve.tremblay@ulaval.ca",
+    "sender_display": "Geneviève Tremblay",
+    "body_text": "Salut Youssef, voici le compte rendu de notre rencontre. On a convenu de terminer la revue de code avant vendredi et de planifier la démo la semaine prochaine. Dis-moi si j'ai oublié quelque chose.",
+    "attachments": [
+      "compte-rendu-sprint-3.pdf"
+    ]
+  },
+  {
+    "id": "legit-047",
+    "label": "legitimate",
+    "subject": "Votre commande #78047 a été expédiée",
+    "sender": "expedition@interac.ca",
+    "sender_display": "Interac",
+    "body_text": "Bonjour, votre commande a été expédiée aujourd'hui. Numéro de suivi : CA100047QC. Suivez votre livraison sur <a href=\"https://interac.ca/suivi/CA100047QC\">interac.ca/suivi</a>."
+  },
+  {
+    "id": "legit-057",
+    "label": "legitimate",
+    "subject": "Votre relevé mensuel est disponible",
+    "sender": "releves@paypal.com",
+    "sender_display": "PayPal",
+    "body_text": "Bonjour Youssef, votre relevé mensuel est maintenant disponible dans votre espace sécurisé. Connectez-vous comme d'habitude via notre site officiel ou l'application mobile pour le consulter. Nous ne vous demanderons jamais votre mot de passe par courriel."
+  },
+  {
+    "id": "legit-034",
+    "label": "legitimate",
+    "subject": "IFT-2034 : rappel — remise du TP3",
+    "sender": "enseignant@ulaval.ca",
+    "sender_display": "Équipe enseignante",
+    "body_text": "Bonjour à toutes et à tous, petit rappel que le TP3 est à remettre dimanche 23 h 59 sur le portail des cours. Les consignes complètes sont dans l'énoncé déjà publié. Bon week-end !"
+  },
+  {
+    "id": "legit-048",
+    "label": "legitimate",
+    "subject": "Reçu de votre commande #78048",
+    "sender": "commandes@desjardins.com",
+    "sender_display": "Desjardins",
+    "body_text": "Bonjour Leïla, merci pour votre commande. Votre reçu est disponible dans votre espace client. Montant : 179,68 $. Vous pouvez suivre la livraison ici : <a href=\"https://desjardins.com/commandes/78048\">desjardins.com/commandes</a>"
+  },
+  {
+    "id": "legit-023",
+    "label": "legitimate",
+    "subject": "Votre commande #78023 a été expédiée",
+    "sender": "expedition@interac.ca",
+    "sender_display": "Interac",
+    "body_text": "Bonjour, votre commande a été expédiée aujourd'hui. Numéro de suivi : CA100023QC. Suivez votre livraison sur <a href=\"https://interac.ca/suivi/CA100023QC\">interac.ca/suivi</a>."
+  },
+  {
+    "id": "legit-009",
+    "label": "legitimate",
+    "subject": "Votre relevé mensuel est disponible",
+    "sender": "releves@paypal.com",
+    "sender_display": "PayPal",
+    "body_text": "Bonjour Étienne, votre relevé mensuel est maintenant disponible dans votre espace sécurisé. Connectez-vous comme d'habitude via notre site officiel ou l'application mobile pour le consulter. Nous ne vous demanderons jamais votre mot de passe par courriel."
+  },
+  {
+    "id": "legit-012",
+    "label": "legitimate",
+    "subject": "Reçu de votre commande #78012",
+    "sender": "commandes@netflix.com",
+    "sender_display": "Netflix",
+    "body_text": "Bonjour Gabriel, merci pour votre commande. Votre reçu est disponible dans votre espace client. Montant : 165,45 $. Vous pouvez suivre la livraison ici : <a href=\"https://netflix.com/commandes/78012\">netflix.com/commandes</a>"
+  },
+  {
+    "id": "legit-038",
+    "label": "legitimate",
+    "subject": "Compte rendu — rencontre d'équipe du sprint 3",
+    "sender": "genevieve.tremblay@ulaval.ca",
+    "sender_display": "Geneviève Tremblay",
+    "body_text": "Salut Marc, voici le compte rendu de notre rencontre. On a convenu de terminer la revue de code avant vendredi et de planifier la démo la semaine prochaine. Dis-moi si j'ai oublié quelque chose.",
+    "attachments": [
+      "compte-rendu-sprint-3.pdf"
+    ]
+  },
+  {
+    "id": "legit-044",
+    "label": "legitimate",
+    "subject": "Compte rendu — rencontre d'équipe du sprint 9",
+    "sender": "genevieve.tremblay@ulaval.ca",
+    "sender_display": "Geneviève Tremblay",
+    "body_text": "Salut Étienne, voici le compte rendu de notre rencontre. On a convenu de terminer la revue de code avant vendredi et de planifier la démo la semaine prochaine. Dis-moi si j'ai oublié quelque chose.",
+    "attachments": [
+      "compte-rendu-sprint-9.pdf"
+    ]
+  },
+  {
+    "id": "legit-040",
+    "label": "legitimate",
+    "subject": "IFT-2040 : rappel — remise du TP1",
+    "sender": "enseignant@ulaval.ca",
+    "sender_display": "Équipe enseignante",
+    "body_text": "Bonjour à toutes et à tous, petit rappel que le TP1 est à remettre dimanche 23 h 59 sur le portail des cours. Les consignes complètes sont dans l'énoncé déjà publié. Bon week-end !"
+  },
+  {
+    "id": "phish-019",
+    "label": "phishing",
+    "subject": "Remboursement de 263,54 $ disponible",
+    "sender": "remboursement@rnicrosoft.com",
+    "sender_display": "Microsoft",
+    "reply_to": "claims19@mail-retour.tk",
+    "body_text": "Cher utilisateur, un remboursement de 389,32 $ vous attend. Pour le recevoir, confirmez votre numéro de carte et votre date de naissance sans délai : <a href=\"http://bit.ly/rb19x\">Réclamer mon remboursement</a>"
+  },
+  {
+    "id": "phish-040",
+    "label": "phishing",
+    "subject": "Félicitations, vous avez été sélectionné !",
+    "sender": "promo40@offres-gagnant.xyz",
+    "sender_display": "Concours Desjardins",
+    "body_text": "Félicitations, vous avez gagné une carte-cadeau Desjardins de 500 $. Confirmez vos informations bancaires pour recevoir votre prix : <a href=\"https://tinyurl.com/gain40\">Réclamer maintenant</a>"
+  },
+  {
+    "id": "legit-006",
+    "label": "legitimate",
+    "subject": "Reçu de votre commande #78006",
+    "sender": "commandes@postescanada.ca",
+    "sender_display": "Postes Canada",
+    "body_text": "Bonjour Amina, merci pour votre commande. Votre reçu est disponible dans votre espace client. Montant : 22,21 $. Vous pouvez suivre la livraison ici : <a href=\"https://postescanada.ca/commandes/78006\">postescanada.ca/commandes</a>"
+  },
+  {
+    "id": "legit-045",
+    "label": "legitimate",
+    "subject": "Votre relevé mensuel est disponible",
+    "sender": "releves@revenuquebec.ca",
+    "sender_display": "Revenu Québec",
+    "body_text": "Bonjour Gabriel, votre relevé mensuel est maintenant disponible dans votre espace sécurisé. Connectez-vous comme d'habitude via notre site officiel ou l'application mobile pour le consulter. Nous ne vous demanderons jamais votre mot de passe par courriel."
+  },
+  {
+    "id": "phish-011",
+    "label": "phishing",
+    "subject": "Votre mot de passe expire aujourd'hui",
+    "sender": "support-ti@rnicrosoft.com",
+    "sender_display": "Support TI",
+    "reply_to": "helpdesk11@reponse-ti.ml",
+    "body_text": "Action immédiate : votre mot de passe expire aujourd'hui. Vérifiez votre compte pour conserver l'accès à vos courriels : <a href=\"https://rnicrosoft.com/reset11\">https://portail.ulaval.ca</a>"
+  },
+  {
+    "id": "phish-032",
+    "label": "phishing",
+    "subject": "Votre colis est en attente de livraison",
+    "sender": "livraison@desjardlns.com",
+    "sender_display": "Postes Canada",
+    "body_text": "Cher client, votre colis est en attente de livraison depuis 3 jours. Des frais de 1,99 $ sont requis. Agissez maintenant : <a href=\"http://86.104.91.55/colis32\">Payer les frais</a>"
+  },
+  {
+    "id": "legit-016",
+    "label": "legitimate",
+    "subject": "IFT-2016 : rappel — remise du TP1",
+    "sender": "enseignant@ulaval.ca",
+    "sender_display": "Équipe enseignante",
+    "body_text": "Bonjour à toutes et à tous, petit rappel que le TP1 est à remettre dimanche 23 h 59 sur le portail des cours. Les consignes complètes sont dans l'énoncé déjà publié. Bon week-end !"
+  },
+  {
+    "id": "phish-047",
+    "label": "phishing",
+    "subject": "Votre mot de passe expire aujourd'hui",
+    "sender": "support-ti@lnterac.ca",
+    "sender_display": "Support TI",
+    "reply_to": "helpdesk47@reponse-ti.ml",
+    "body_text": "Action immédiate : votre mot de passe expire aujourd'hui. Vérifiez votre compte pour conserver l'accès à vos courriels : <a href=\"https://lnterac.ca/reset47\">https://portail.ulaval.ca</a>"
+  },
+  {
+    "id": "legit-054",
+    "label": "legitimate",
+    "subject": "Reçu de votre commande #78054",
+    "sender": "commandes@postescanada.ca",
+    "sender_display": "Postes Canada",
+    "body_text": "Bonjour Marc, merci pour votre commande. Votre reçu est disponible dans votre espace client. Montant : 71,27 $. Vous pouvez suivre la livraison ici : <a href=\"https://postescanada.ca/commandes/78054\">postescanada.ca/commandes</a>"
+  },
+  {
+    "id": "phish-000",
+    "label": "phishing",
+    "subject": "URGENT : votre compte Desjardins sera suspendu dans 24 heures",
+    "sender": "securite@desjardlns.com",
+    "sender_display": "Desjardins Sécurité",
+    "body_text": "Cher client, nous avons détecté une activité inhabituelle sur votre compte. Vous devez vérifier votre identité dans les 24 heures, sinon votre compte sera suspendu. Confirmez vos identifiants ici : <a href=\"https://desjardlns.com/verify?id=0\">https://desjardins.com/securite</a>"
+  },
+  {
+    "id": "phish-029",
+    "label": "phishing",
+    "subject": "Votre mot de passe expire aujourd'hui",
+    "sender": "support-ti@revenuquebec-remboursement.xyz",
+    "sender_display": "Support TI",
+    "reply_to": "helpdesk29@reponse-ti.ml",
+    "body_text": "Action immédiate : votre mot de passe expire aujourd'hui. Vérifiez votre compte pour conserver l'accès à vos courriels : <a href=\"https://revenuquebec-remboursement.xyz/reset29\">https://portail.ulaval.ca</a>"
+  },
+  {
+    "id": "phish-010",
+    "label": "phishing",
+    "subject": "Félicitations, vous avez été sélectionné !",
+    "sender": "promo10@offres-gagnant.xyz",
+    "sender_display": "Concours Amazon",
+    "body_text": "Félicitations, vous avez gagné une carte-cadeau Amazon de 500 $. Confirmez vos informations bancaires pour recevoir votre prix : <a href=\"https://tinyurl.com/gain10\">Réclamer maintenant</a>"
+  },
+  {
+    "id": "legit-027",
+    "label": "legitimate",
+    "subject": "Votre relevé mensuel est disponible",
+    "sender": "releves@microsoft.com",
+    "sender_display": "Microsoft",
+    "body_text": "Bonjour Youssef, votre relevé mensuel est maintenant disponible dans votre espace sécurisé. Connectez-vous comme d'habitude via notre site officiel ou l'application mobile pour le consulter. Nous ne vous demanderons jamais votre mot de passe par courriel."
+  },
+  {
+    "id": "legit-018",
+    "label": "legitimate",
+    "subject": "Reçu de votre commande #78018",
+    "sender": "commandes@amazon.ca",
+    "sender_display": "Amazon",
+    "body_text": "Bonjour Youssef, merci pour votre commande. Votre reçu est disponible dans votre espace client. Montant : 112,22 $. Vous pouvez suivre la livraison ici : <a href=\"https://amazon.ca/commandes/78018\">amazon.ca/commandes</a>"
+  },
+  {
+    "id": "phish-054",
+    "label": "phishing",
+    "subject": "URGENT : votre compte Postes Canada sera suspendu dans 24 heures",
+    "sender": "securite@postescanda.ca",
+    "sender_display": "Postes Canada Sécurité",
+    "body_text": "Cher client, nous avons détecté une activité inhabituelle sur votre compte. Vous devez vérifier votre identité dans les 24 heures, sinon votre compte sera suspendu. Confirmez vos identifiants ici : <a href=\"https://postescanda.ca/verify?id=54\">https://postescanada.ca/securite</a>"
+  },
+  {
+    "id": "legit-021",
+    "label": "legitimate",
+    "subject": "Votre relevé mensuel est disponible",
+    "sender": "releves@revenuquebec.ca",
+    "sender_display": "Revenu Québec",
+    "body_text": "Bonjour Leïla, votre relevé mensuel est maintenant disponible dans votre espace sécurisé. Connectez-vous comme d'habitude via notre site officiel ou l'application mobile pour le consulter. Nous ne vous demanderons jamais votre mot de passe par courriel."
+  },
+  {
+    "id": "phish-041",
+    "label": "phishing",
+    "subject": "Votre mot de passe expire aujourd'hui",
+    "sender": "support-ti@paypa1.com",
+    "sender_display": "Support TI",
+    "reply_to": "helpdesk41@reponse-ti.ml",
+    "body_text": "Action immédiate : votre mot de passe expire aujourd'hui. Vérifiez votre compte pour conserver l'accès à vos courriels : <a href=\"https://paypa1.com/reset41\">https://portail.ulaval.ca</a>"
+  },
+  {
+    "id": "phish-049",
+    "label": "phishing",
+    "subject": "Remboursement de 153,43 $ disponible",
+    "sender": "remboursement@paypa1.com",
+    "sender_display": "PayPal",
+    "reply_to": "claims49@mail-retour.tk",
+    "body_text": "Cher utilisateur, un remboursement de 151,32 $ vous attend. Pour le recevoir, confirmez votre numéro de carte et votre date de naissance sans délai : <a href=\"http://bit.ly/rb49x\">Réclamer mon remboursement</a>"
+  },
+  {
+    "id": "phish-017",
+    "label": "phishing",
+    "subject": "Votre mot de passe expire aujourd'hui",
+    "sender": "support-ti@paypa1.com",
+    "sender_display": "Support TI",
+    "reply_to": "helpdesk17@reponse-ti.ml",
+    "body_text": "Action immédiate : votre mot de passe expire aujourd'hui. Vérifiez votre compte pour conserver l'accès à vos courriels : <a href=\"https://paypa1.com/reset17\">https://portail.ulaval.ca</a>"
+  },
+  {
+    "id": "phish-048",
+    "label": "phishing",
+    "subject": "URGENT : votre compte Desjardins sera suspendu dans 24 heures",
+    "sender": "securite@desjardlns.com",
+    "sender_display": "Desjardins Sécurité",
+    "body_text": "Cher client, nous avons détecté une activité inhabituelle sur votre compte. Vous devez vérifier votre identité dans les 24 heures, sinon votre compte sera suspendu. Confirmez vos identifiants ici : <a href=\"https://desjardlns.com/verify?id=48\">https://desjardins.com/securite</a>"
+  },
+  {
+    "id": "phish-034",
+    "label": "phishing",
+    "subject": "Félicitations, vous avez été sélectionné !",
+    "sender": "promo34@offres-gagnant.xyz",
+    "sender_display": "Concours Amazon",
+    "body_text": "Félicitations, vous avez gagné une carte-cadeau Amazon de 500 $. Confirmez vos informations bancaires pour recevoir votre prix : <a href=\"https://tinyurl.com/gain34\">Réclamer maintenant</a>"
+  },
+  {
+    "id": "phish-056",
+    "label": "phishing",
+    "subject": "Votre colis est en attente de livraison",
+    "sender": "livraison@desjardlns.com",
+    "sender_display": "Postes Canada",
+    "body_text": "Cher client, votre colis est en attente de livraison depuis 3 jours. Des frais de 1,99 $ sont requis. Agissez maintenant : <a href=\"http://73.49.161.42/colis56\">Payer les frais</a>"
+  },
+  {
+    "id": "phish-007",
+    "label": "phishing",
+    "subject": "Remboursement de 191,39 $ disponible",
+    "sender": "remboursement@lnterac.ca",
+    "sender_display": "Interac",
+    "reply_to": "claims7@mail-retour.tk",
+    "body_text": "Cher utilisateur, un remboursement de 338,32 $ vous attend. Pour le recevoir, confirmez votre numéro de carte et votre date de naissance sans délai : <a href=\"http://bit.ly/rb7x\">Réclamer mon remboursement</a>"
+  },
+  {
+    "id": "phish-046",
+    "label": "phishing",
+    "subject": "Félicitations, vous avez été sélectionné !",
+    "sender": "promo46@offres-gagnant.xyz",
+    "sender_display": "Concours Postes Canada",
+    "body_text": "Félicitations, vous avez gagné une carte-cadeau Postes Canada de 500 $. Confirmez vos informations bancaires pour recevoir votre prix : <a href=\"https://tinyurl.com/gain46\">Réclamer maintenant</a>"
+  },
+  {
+    "id": "legit-043",
+    "label": "legitimate",
+    "subject": "Infolettre Microsoft — nouveautés du mois",
+    "sender": "infolettre@microsoft.com",
+    "sender_display": "Microsoft",
+    "body_text": "Bonjour Étienne, voici les nouveautés du mois. Pour gérer vos préférences de communication, rendez-vous sur <a href=\"https://microsoft.com/preferences\">microsoft.com/preferences</a>. Bonne lecture !"
+  },
+  {
+    "id": "legit-000",
+    "label": "legitimate",
+    "subject": "Reçu de votre commande #78000",
+    "sender": "commandes@desjardins.com",
+    "sender_display": "Desjardins",
+    "body_text": "Bonjour Youssef, merci pour votre commande. Votre reçu est disponible dans votre espace client. Montant : 21,45 $. Vous pouvez suivre la livraison ici : <a href=\"https://desjardins.com/commandes/78000\">desjardins.com/commandes</a>"
+  },
+  {
+    "id": "phish-055",
+    "label": "phishing",
+    "subject": "Remboursement de 340,73 $ disponible",
+    "sender": "remboursement@lnterac.ca",
+    "sender_display": "Interac",
+    "reply_to": "claims55@mail-retour.tk",
+    "body_text": "Cher utilisateur, un remboursement de 126,32 $ vous attend. Pour le recevoir, confirmez votre numéro de carte et votre date de naissance sans délai : <a href=\"http://bit.ly/rb55x\">Réclamer mon remboursement</a>"
+  },
+  {
+    "id": "phish-035",
+    "label": "phishing",
+    "subject": "Votre mot de passe expire aujourd'hui",
+    "sender": "support-ti@rnicrosoft.com",
+    "sender_display": "Support TI",
+    "reply_to": "helpdesk35@reponse-ti.ml",
+    "body_text": "Action immédiate : votre mot de passe expire aujourd'hui. Vérifiez votre compte pour conserver l'accès à vos courriels : <a href=\"https://rnicrosoft.com/reset35\">https://portail.ulaval.ca</a>"
+  },
+  {
+    "id": "phish-016",
+    "label": "phishing",
+    "subject": "Félicitations, vous avez été sélectionné !",
+    "sender": "promo16@offres-gagnant.xyz",
+    "sender_display": "Concours Desjardins",
+    "body_text": "Félicitations, vous avez gagné une carte-cadeau Desjardins de 500 $. Confirmez vos informations bancaires pour recevoir votre prix : <a href=\"https://tinyurl.com/gain16\">Réclamer maintenant</a>"
+  },
+  {
+    "id": "legit-033",
+    "label": "legitimate",
+    "subject": "Votre relevé mensuel est disponible",
+    "sender": "releves@paypal.com",
+    "sender_display": "PayPal",
+    "body_text": "Bonjour Youssef, votre relevé mensuel est maintenant disponible dans votre espace sécurisé. Connectez-vous comme d'habitude via notre site officiel ou l'application mobile pour le consulter. Nous ne vous demanderons jamais votre mot de passe par courriel."
+  },
+  {
+    "id": "legit-029",
+    "label": "legitimate",
+    "subject": "Votre commande #78029 a été expédiée",
+    "sender": "expedition@revenuquebec.ca",
+    "sender_display": "Revenu Québec",
+    "body_text": "Bonjour, votre commande a été expédiée aujourd'hui. Numéro de suivi : CA100029QC. Suivez votre livraison sur <a href=\"https://revenuquebec.ca/suivi/CA100029QC\">revenuquebec.ca/suivi</a>."
+  },
+  {
+    "id": "phish-038",
+    "label": "phishing",
+    "subject": "Votre colis est en attente de livraison",
+    "sender": "livraison@postescanda.ca",
+    "sender_display": "Postes Canada",
+    "body_text": "Cher client, votre colis est en attente de livraison depuis 3 jours. Des frais de 1,99 $ sont requis. Agissez maintenant : <a href=\"http://208.186.143.58/colis38\">Payer les frais</a>"
+  },
+  {
+    "id": "phish-024",
+    "label": "phishing",
+    "subject": "URGENT : votre compte Desjardins sera suspendu dans 24 heures",
+    "sender": "securite@desjardlns.com",
+    "sender_display": "Desjardins Sécurité",
+    "body_text": "Cher client, nous avons détecté une activité inhabituelle sur votre compte. Vous devez vérifier votre identité dans les 24 heures, sinon votre compte sera suspendu. Confirmez vos identifiants ici : <a href=\"https://desjardlns.com/verify?id=24\">https://desjardins.com/securite</a>"
+  },
+  {
+    "id": "legit-024",
+    "label": "legitimate",
+    "subject": "Reçu de votre commande #78024",
+    "sender": "commandes@desjardins.com",
+    "sender_display": "Desjardins",
+    "body_text": "Bonjour Youssef, merci pour votre commande. Votre reçu est disponible dans votre espace client. Montant : 156,47 $. Vous pouvez suivre la livraison ici : <a href=\"https://desjardins.com/commandes/78024\">desjardins.com/commandes</a>"
+  }
+]

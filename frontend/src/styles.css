@@ -1,0 +1,200 @@
+/* PhishGuard AI — identité "poste d'analyste".
+   Palette : labo clair, encre profonde, pétrole en accent, verdicts francs.
+   Types : Space Grotesk (display), IBM Plex Sans (corps), IBM Plex Mono (preuves). */
+
+:root {
+  --bg: #edf1ef;            /* gris-vert labo */
+  --panel: #ffffff;
+  --ink: #16242c;           /* encre profonde */
+  --muted: #5b6d75;
+  --line: #d3dcd8;
+  --accent: #0d5e63;        /* pétrole */
+  --accent-soft: #e0eeee;
+  --phishing: #bb2d3b;
+  --suspicious: #a86a08;
+  --legitimate: #1d7a4c;
+  --radius: 10px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background:
+    linear-gradient(180deg, rgba(13, 94, 99, 0.06), transparent 220px),
+    var(--bg);
+  color: var(--ink);
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.shell { max-width: 1060px; margin: 0 auto; padding: 0 20px 48px; }
+
+/* --- Barre de navigation --- */
+.topbar {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; padding: 18px 0 14px; margin-bottom: 24px;
+  border-bottom: 2px solid var(--ink);
+  flex-wrap: wrap;
+}
+.brand {
+  display: flex; align-items: center; gap: 10px;
+  text-decoration: none; color: var(--ink);
+  font-family: 'Space Grotesk', sans-serif; font-size: 21px; font-weight: 700;
+}
+.brand em { color: var(--accent); font-style: normal; }
+.brand small {
+  display: block; font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 11.5px; font-weight: 400; color: var(--muted); letter-spacing: 0.02em;
+}
+.brand-mark { color: var(--accent); font-size: 15px; transform: translateY(-8px); }
+.topbar nav { display: flex; gap: 4px; flex-wrap: wrap; }
+.topbar nav a {
+  padding: 8px 14px; border-radius: 999px; text-decoration: none;
+  color: var(--ink); font-weight: 500; font-size: 14px;
+}
+.topbar nav a:hover { background: var(--accent-soft); }
+.topbar nav a.active { background: var(--ink); color: #fff; }
+.topbar nav a:focus-visible, .btn:focus-visible, a:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px;
+}
+
+/* --- Panneaux --- */
+.panel {
+  background: var(--panel); border: 1px solid var(--line);
+  border-radius: var(--radius); padding: 22px 24px; margin-bottom: 18px;
+}
+.panel h1 { font-family: 'Space Grotesk', sans-serif; font-size: 24px; margin: 0 0 6px; }
+.panel h2 {
+  font-family: 'Space Grotesk', sans-serif; font-size: 15px;
+  text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--accent); margin: 0 0 12px;
+}
+.panel-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; flex-wrap: wrap; }
+.panel.error { border-color: var(--phishing); color: var(--phishing); }
+.panel.empty { color: var(--muted); text-align: center; padding: 40px; }
+.eyebrow {
+  font-family: 'IBM Plex Mono', monospace; font-size: 12px;
+  color: var(--muted); margin: 0 0 4px; letter-spacing: 0.03em;
+}
+.muted { color: var(--muted); }
+.mono { font-family: 'IBM Plex Mono', monospace; font-size: 13px; }
+
+/* --- Statistiques --- */
+.stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 18px; }
+.stat {
+  background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 14px 18px; display: flex; flex-direction: column;
+}
+.stat strong { font-family: 'Space Grotesk', sans-serif; font-size: 30px; line-height: 1.1; }
+.stat span { color: var(--muted); font-size: 13px; }
+.stat.v-phishing strong { color: var(--phishing); }
+.stat.v-suspicious strong { color: var(--suspicious); }
+.stat.v-legitimate strong { color: var(--legitimate); }
+
+/* --- Tableau --- */
+table.analyses { width: 100%; border-collapse: collapse; }
+table.analyses th {
+  text-align: left; font-size: 12px; text-transform: uppercase;
+  letter-spacing: 0.05em; color: var(--muted);
+  padding: 6px 10px; border-bottom: 1px solid var(--line);
+}
+table.analyses td { padding: 11px 10px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+table.analyses tr:last-child td { border-bottom: none; }
+.cell-subject { font-weight: 500; max-width: 340px; }
+
+/* --- Badges de verdict --- */
+.badge {
+  display: inline-block; padding: 4px 12px; border-radius: 999px;
+  font-size: 12.5px; font-weight: 600; letter-spacing: 0.02em; white-space: nowrap;
+  border: 1.5px solid currentColor;
+}
+.badge.v-phishing { color: var(--phishing); background: #f9e9eb; }
+.badge.v-suspicious { color: var(--suspicious); background: #f7efe0; }
+.badge.v-legitimate { color: var(--legitimate); background: #e6f2ea; }
+
+/* --- Barre de traçabilité (signature) --- */
+.scorebar-track {
+  display: flex; height: 34px; border-radius: 7px; overflow: hidden;
+  background:
+    repeating-linear-gradient(-45deg, #e6ebe9 0 8px, #eef2f0 8px 16px);
+  border: 1px solid var(--line);
+}
+.scorebar-seg {
+  background: var(--phishing);
+  display: flex; align-items: center; justify-content: center;
+  color: #fff; font-family: 'IBM Plex Mono', monospace; font-size: 12px;
+  border-right: 2px solid rgba(255, 255, 255, 0.65);
+  min-width: 3px;
+  transition: filter 0.15s;
+}
+.scorebar-seg:hover { filter: brightness(1.12); }
+.scorebar-seg:nth-child(2n) { background: #d04a57; }
+.scorebar-llm { background: var(--accent) !important; }
+.scorebar-legend {
+  margin-top: 8px; font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px; color: var(--muted);
+}
+.scorebar-compact .scorebar-track { height: 10px; }
+
+/* --- Détail --- */
+.detail-head { display: flex; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+.detail-actions { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; }
+.export-group { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.signal-list { list-style: none; margin: 0; padding: 0; }
+.signal-list li { padding: 14px 0; border-bottom: 1px dashed var(--line); }
+.signal-list li:last-child { border-bottom: none; }
+.signal-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.rule-id {
+  background: var(--ink); color: #fff; padding: 2px 8px;
+  border-radius: 5px; font-size: 11.5px; font-family: 'IBM Plex Mono', monospace;
+}
+.weight { color: var(--phishing); font-weight: 600; font-family: 'IBM Plex Mono', monospace; }
+.validated { color: var(--legitimate); font-size: 12.5px; font-weight: 600; }
+.evidence { margin: 6px 0 2px; color: var(--ink); }
+.signal-list .muted { margin: 0; font-size: 13.5px; }
+.recos { margin: 0; padding-left: 20px; }
+.body-view {
+  background: #f5f8f7; border: 1px solid var(--line); border-radius: 7px;
+  padding: 14px; white-space: pre-wrap; word-break: break-word;
+  font-family: 'IBM Plex Mono', monospace; font-size: 13px; margin: 0;
+}
+
+/* --- Formulaires --- */
+.form-panel label { display: block; margin-bottom: 14px; font-weight: 500; font-size: 13.5px; }
+.form-panel input[type='text'], .form-panel input:not([type]), .form-panel textarea {
+  display: block; width: 100%; margin-top: 5px; padding: 9px 12px;
+  border: 1px solid var(--line); border-radius: 7px;
+  font: inherit; font-size: 14px; background: #fbfdfc; color: var(--ink);
+}
+.form-panel input:focus, .form-panel textarea:focus {
+  outline: 2px solid var(--accent); outline-offset: 0; border-color: var(--accent);
+}
+.form-panel input[type='file'] { margin: 12px 0; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 0 18px; }
+@media (max-width: 640px) { .grid-2 { grid-template-columns: 1fr; } }
+
+/* --- Boutons --- */
+.btn {
+  display: inline-block; padding: 9px 18px; border-radius: 7px;
+  border: 1px solid var(--ink); background: transparent; color: var(--ink);
+  font: inherit; font-weight: 600; font-size: 14px;
+  cursor: pointer; text-decoration: none;
+}
+.btn:disabled { opacity: 0.45; cursor: not-allowed; }
+.btn-primary { background: var(--ink); color: #fff; }
+.btn-primary:hover:not(:disabled) { background: var(--accent); border-color: var(--accent); }
+.btn-quiet { border-color: var(--line); font-weight: 500; }
+.btn-quiet:hover { border-color: var(--accent); color: var(--accent); }
+
+.error-inline { color: var(--phishing); font-size: 13.5px; }
+.footnote {
+  margin-top: 28px; color: var(--muted); font-size: 12.5px;
+  border-top: 1px solid var(--line); padding-top: 14px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}

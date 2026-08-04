@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    /* Même identité que le dashboard : encre, pétrole, verdicts francs. */
+    body {
+      width: 360px; margin: 0; padding: 16px;
+      font-family: system-ui, sans-serif; font-size: 13.5px;
+      color: #16242c; background: #edf1ef;
+    }
+    h1 { font-size: 16px; margin: 0 0 2px; }
+    h1 em { color: #0d5e63; font-style: normal; }
+    .sub { color: #5b6d75; font-size: 11.5px; margin: 0 0 12px; }
+    button {
+      width: 100%; padding: 10px; border-radius: 7px; border: none;
+      background: #16242c; color: #fff; font-weight: 600; font-size: 13.5px;
+      cursor: pointer;
+    }
+    button:hover { background: #0d5e63; }
+    button:disabled { opacity: 0.5; cursor: wait; }
+    #result { margin-top: 12px; }
+    .badge {
+      display: inline-block; padding: 3px 10px; border-radius: 999px;
+      font-weight: 700; font-size: 12px; border: 1.5px solid currentColor;
+    }
+    .v-phishing { color: #bb2d3b; background: #f9e9eb; }
+    .v-suspicious { color: #a86a08; background: #f7efe0; }
+    .v-legitimate { color: #1d7a4c; background: #e6f2ea; }
+    .track {
+      display: flex; height: 12px; border-radius: 6px; overflow: hidden;
+      background: #e2e8e5; margin: 8px 0; border: 1px solid #d3dcd8;
+    }
+    .seg { background: #bb2d3b; border-right: 1.5px solid #fff; }
+    .seg:nth-child(2n) { background: #d04a57; }
+    ul { padding-left: 0; list-style: none; margin: 8px 0 0; }
+    li { padding: 5px 0; border-bottom: 1px dashed #d3dcd8; }
+    li code {
+      background: #16242c; color: #fff; border-radius: 4px;
+      padding: 1px 5px; font-size: 10.5px; margin-right: 5px;
+    }
+    li .w { color: #bb2d3b; font-weight: 700; float: right; }
+    .expl { margin-top: 8px; font-size: 12.5px; }
+    .err { color: #bb2d3b; margin-top: 10px; }
+    .foot { margin-top: 12px; color: #5b6d75; font-size: 10.5px; }
+  </style>
+</head>
+<body>
+  <h1>PhishGuard <em>AI</em></h1>
+  <p class="sub">Analyse locale du courriel affiché — projet défensif</p>
+  <button id="scan">Analyser le courriel ouvert</button>
+  <div id="result"></div>
+  <p class="foot">Nécessite l'API locale sur <code>localhost:8000</code>.</p>
+  <script src="popup.js"></script>
+</body>
+</html>
