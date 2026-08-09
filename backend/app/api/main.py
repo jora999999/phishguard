@@ -11,6 +11,7 @@ Endpoints :
 from __future__ import annotations
 
 import json
+import os
 from typing import Optional
 
 from fastapi import FastAPI, HTTPException, UploadFile
@@ -28,8 +29,12 @@ from ..domain.models import AnalysisResult
 app = FastAPI(title="PhishGuard AI", version="1.0.0",
               description="Analyseur de phishing explicable — règles déterministes + LLM.")
 
-# CORS ouvert en dev : le dashboard (5173) et l'extension appellent l'API (8000).
-app.add_middleware(CORSMiddleware, allow_origins=["*"],
+# CORS : restricting to allowed origins (from FRONTEND_URL env var).
+# In dev: localhost:5173 (Vite dashboard)
+# In prod: set FRONTEND_URL as a comma-separated list of allowed domains
+allowed_origins = os.getenv("FRONTEND_URL", "http://localhost:5173").split(",")
+allowed_origins = [origin.strip() for origin in allowed_origins]
+app.add_middleware(CORSMiddleware, allow_origins=allowed_origins,
                    allow_methods=["*"], allow_headers=["*"])
 
 # Composition root : on branche les adapters sur les ports du domaine.

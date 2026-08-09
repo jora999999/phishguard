@@ -4,11 +4,20 @@ services:
     ports:
       - "8000:8000"
     environment:
-      # Optionnelle : sans clé, la couche LLM passe en fallback heuristique.
+      # Clé Gemini (optionnelle) : sans clé, la couche LLM passe en fallback heuristique.
       - GEMINI_API_KEY=${GEMINI_API_KEY:-}
+      # CORS : liste des origines autorisées (comma-separated)
+      # En prod : https://example.com,https://www.example.com
+      - FRONTEND_URL=${FRONTEND_URL:-http://localhost:5173}
 
   frontend:
-    build: ./frontend
+    build: 
+      context: ./frontend
+      args:
+        # URL du backend pour les appels API depuis React
+        # En dev : http://localhost:8000 (sera proxifié par Vite)
+        # En prod : https://api.example.com ou http://backend:8000
+        VITE_API_URL: ${VITE_API_URL:-http://localhost:8000}
     ports:
       - "8080:80"
     depends_on:
